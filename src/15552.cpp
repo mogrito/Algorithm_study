@@ -2,7 +2,9 @@
 using namespace std;
 
 int main(){
-cin.tie(NULL); // cin 과 cout 의 묶음을 풀어줌
+cin.tie(NULL); // cin 과 cout 의 묶음을 풀어줌으로써
+// 자동으로 입출력 버퍼를 비우지 않게함
+// 때문에 입출력 속도가 높아짐
 ios_base::sync_with_stdio(false);
 //stido 와 cpp의 동기화를 비활성화 , c++ 의 독립적인 버퍼생성, c의 버퍼사용 불가
 // 하지만 사용하는 버퍼의 수가 줄어 실행속도가 증가
