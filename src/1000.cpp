@@ -8,4 +8,5 @@ int main(){
     cin >> a >> b;
     cout << a+b;
     return 0;
+    // 수정사항
 }
